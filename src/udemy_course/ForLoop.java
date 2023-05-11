@@ -5,6 +5,11 @@ public class ForLoop {
 		{
 			//System.out.println("Hello World"+" "+i);
 			System.out.printf("The value of i is : %d \n",i); // printf(is used for formating )
+			
+			for (int j=i;j<5;j++)
+			{
+				System.out.println("the value of the inner for is "+j);
+			}
 		}
 	}
 
