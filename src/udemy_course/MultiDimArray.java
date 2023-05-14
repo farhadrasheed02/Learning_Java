@@ -2,17 +2,18 @@ package udemy_course;
 
 public class MultiDimArray {
 	public static void main(String[] args) {
-		int [][] myNum = {{1,2,4,6,8},{4,10,12,14,59}};
-		//System.out.println(myNum[1][3]);
-		for(int i=0; i<myNum.length;i++)
+		int [][] myNum = {{1,2,4,6,8},
+				{4,10,12,14},
+		{6,3,3,1}
+					};
+		for(int row=0; row<myNum.length;row++)
 		{
-			for(int j=0;j<myNum[i].length;j++)
+			for(int col=0;col<myNum[row].length;col++)
 			{
-				System.out.println(myNum[i][j]);
+				System.out.print(myNum[row][col]+ "\t");
 			}
-			//System.out.println(myNum[i]);
-		}
-		
+			System.out.println();
+		}	
 		}
 	
 
