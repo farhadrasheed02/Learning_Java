@@ -22,9 +22,7 @@ class Student
 public class MyClass {
 
 	public static void main(String[] args) {
-		//System.out.println();
-		
-		//creating an object of Student Class
+
 		Student st = new Student();
 		System.out.println(st.name);
 		System.out.println(st.age);
