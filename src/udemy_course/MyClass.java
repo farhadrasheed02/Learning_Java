@@ -5,7 +5,7 @@ class Student
 	String name;
 	int age;
 	double marks;
-	public void Details()
+	public  Student()
 	{
 	Scanner sc = new Scanner(System.in);
 	System.out.println("Enter the name of the Student");
