@@ -17,6 +17,7 @@ class Student
 	sc.close();
 	
 	}
+	
 	}
 
 public class MyClass {
@@ -25,9 +26,9 @@ public class MyClass {
 		Student st = new Student();
 		practice pc = new practice();
 		pc.speak();
-		System.out.println(st.name);
-		System.out.println(st.age);
-		System.out.println(st.marks);
+//		System.out.println(st.name);
+//		System.out.println(st.age);
+//		System.out.println(st.marks);
 	}
 
 }
