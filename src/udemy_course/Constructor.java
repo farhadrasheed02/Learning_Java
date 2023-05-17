@@ -49,8 +49,8 @@ public class Constructor {
 		
 		System.out.println(cs.getName());
 		System.out.println(cs.getAge());
-		Constructor cs1 = new Constructor(str);
-		Constructor cs2 = new Constructor(str,age);
+		//Constructor cs1 = new Constructor(str);
+		//Constructor cs2 = new Constructor(str,age);
 		//System.out.println(str);
 		
 		
