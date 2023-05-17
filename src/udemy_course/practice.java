@@ -2,20 +2,26 @@ package udemy_course;
 import java.util.Scanner;
 public class practice {
 	String txt;
-	public  void speak()
+//	public   practice()
+//	{
+//		Scanner sc = new Scanner(System.in);
+//		System.out.println("Enter the Name");
+//		 txt = sc.nextLine();
+//		System.out.println("Speaker is "+txt);
+//		sc.close();
+//		
+//		
+//		
+//	}
+	public void speak()
 	{
-		System.out.println("Enter the name of the Student");
-		//System.out.println("My Name is Farhad");
-		 Scanner sc = new Scanner(System.in);
-		 txt = sc.next();
-		
-			
-		
-		
-		
-		
-		
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter the Name");
+		 txt = sc.nextLine();
+		System.out.println("Speaker is "+txt);
+		sc.close();
 	}
+	
 
 
 }

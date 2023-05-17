@@ -7,14 +7,14 @@ class Student
 	double marks;
 	public  Student()
 	{
-	Scanner sc = new Scanner(System.in);
-//	System.out.println("Enter the name of the Student");
-//	name = sc.next();
+	//Scanner sc = new Scanner(System.in);
+	//System.out.println("Enter the name of the Student");
+	//name = sc.next();
 //	System.out.println("Enter the age of the Student");
 //	age = sc.nextInt();
 //	System.out.println("Enter the marks of the students");
 //	marks=sc.nextDouble();
-	sc.close();
+	//sc.close();
 	
 	}
 	
@@ -23,10 +23,12 @@ class Student
 public class MyClass {
 	public static void main(String[] args) {
 
-		Student st = new Student();
+	//	Student st = new Student();
 		practice pc = new practice();
 		pc.speak();
-//		System.out.println(st.name);
+		//pc.practice();
+		//System.out.println(pc.txt);
+//	System.out.println(st.name);
 //		System.out.println(st.age);
 //		System.out.println(st.marks);
 	}
