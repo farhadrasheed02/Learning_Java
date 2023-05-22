@@ -1,5 +1,5 @@
 package inheritance;
 
-public class ClassD extends ClassC {
+public class ClassD extends ClassB {
 
 }

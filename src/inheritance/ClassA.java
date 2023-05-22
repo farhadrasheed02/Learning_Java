@@ -12,7 +12,7 @@ public class ClassA {
 		
 		ClassD cd = new ClassD();
 		cd.Walk();
-		cd.TalkC();
+		//cd.TalkC();
 		cd.Speak();
 	}
 
