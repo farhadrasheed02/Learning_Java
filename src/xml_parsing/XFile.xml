@@ -1,6 +1,5 @@
-<?xml version="1.0"?>  
 <class>  
-    <student>  
+    <student name = "farhad">  
         <id>101</id>  
         <firstname>Naman</firstname>  
         <lastname>Kumar</lastname>  
