@@ -1,14 +1,12 @@
 package collection;
-
 import java.util.ArrayList;
 import java.util.List;
-
 public class ListClass {
 
 	public static void main(String[] args) {
 		
 		//TypeSafe means that we use generic <String> so we can add only one type of data i.e. in this case String
-		ArrayList<String> array = new ArrayList();
+		List<String> array = new ArrayList();
 	//	array.add(5); // voilates the typesafe here
 		array.add("farhad");
 		System.out.println(array);
