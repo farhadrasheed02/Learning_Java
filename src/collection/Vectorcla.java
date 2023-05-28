@@ -8,6 +8,7 @@ public class Vectorcla {
 		Vector<String> vr = new Vector<String>();
 		vr.add("Farhad");
 		vr.add("haseena");
+		System.out.println(vr.get(0));
 		
 
 	}
