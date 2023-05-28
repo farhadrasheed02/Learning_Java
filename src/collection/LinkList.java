@@ -9,7 +9,7 @@ public class LinkList {
 			
 			// un safe type ( means we can add any sort of datatype)
 		LinkedList lnklist =new LinkedList();
-		lnklist.add(0,"farhad");
+		lnklist.add(0,"farhad Rashid Reshi");
 		lnklist.add("hasu");
 		System.out.println(lnklist);
 		System.out.println(lnklist.get(2));
