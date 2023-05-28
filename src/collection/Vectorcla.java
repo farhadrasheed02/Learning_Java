@@ -9,6 +9,7 @@ public class Vectorcla {
 		vr.add("Farhad");
 		vr.add("haseena");
 		System.out.println(vr.get(0));
+		System.out.println(vr);
 		
 
 	}
