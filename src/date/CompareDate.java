@@ -21,7 +21,7 @@ if(str.compareTo(datevalue)>0)
 }
 else if(str.compareTo(datevalue)<0)
 {
-			System.out.println("Future Date");
+			System.out.println("Future Date"+datevalue);
 }
 else if(str.compareTo(datevalue)==0)
 {
