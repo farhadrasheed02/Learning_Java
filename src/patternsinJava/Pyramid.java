@@ -18,7 +18,7 @@ public class Pyramid {
 	public static void main(String[] args) {
 
 		Pyramid pyramid = new Pyramid();
-		pyramid.pyramidPattern(6);
+		pyramid.pyramidPattern(5);
 
 
 	}
