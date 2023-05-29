@@ -20,9 +20,7 @@ public class PyramidStarPattern {
 		}   
 		//throws the cursor in a new line after printing each line  
 		System.out.println();   
-		}   
-		
-		
+		}   		
 
 	}
 	public static void main(String[] args) {
