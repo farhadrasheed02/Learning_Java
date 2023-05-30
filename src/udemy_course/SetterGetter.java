@@ -16,7 +16,7 @@ public class SetterGetter {
 
 	public static void main(String[] args) {
 		SetterGetter sg = new SetterGetter();
-		sg.setName("Farahd");
+		sg.setName("Farhd");
 		System.out.println(sg.getName());
 
 	}

@@ -7,21 +7,31 @@ public class LinkList {
 		// TODO Auto-generated method stub
 		try {
 			
-			// un safe type ( means we can add any sort of datatype)
-		LinkedList lnklist =new LinkedList();
-		lnklist.add(0,"farhad Rashid Reshi");
-		lnklist.add("hasu");
-		System.out.println(lnklist);
-		System.out.println(lnklist.get(2));
+//			// un safe type ( means we can add any sort of datatype)
+//		LinkedList lnklist =new LinkedList();
+//		lnklist.add(0,"farhad Rashid Reshi");
+//		lnklist.add("hasu");
+//		System.out.println(lnklist);
+//		//trying to create exception by accesing element out of index
+//		System.out.println(lnklist.get(2));
+//		
 		
-		
-		
+		int count =0;
 		// we are printing a particular type of data type here. i.e String only
 		LinkedList<String> str = new LinkedList<>();
 		str.add("Farhad");
 		str.add("Rashid");
 		str.add("Reshi");
 		str.add("Farhad");
+		str.remove("Reshi");
+		System.out.println(str);
+		boolean bol = str.contains("Farhad");
+		if(bol==true)
+		{
+			 count++;
+		}
+		System.out.println(count);
+		System.out.println(str.contains("Farhad Rashid"));
 		
 		//duplicate is allowed and order is preserved here...
 		System.out.println(str.get(1));
