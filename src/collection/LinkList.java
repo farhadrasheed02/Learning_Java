@@ -25,7 +25,12 @@ public class LinkList {
 		str.add("Farhad");
 		//str.remove("Reshi");
 		str.add(1,"Hadi");
+		str.toArray();
 		System.out.println(str);
+		for(String stri : str)
+		{
+			System.out.println(stri +"\t"+stri.length());
+		}
 		boolean bol = str.contains("Farhad");
 		if(bol==true)
 		{
