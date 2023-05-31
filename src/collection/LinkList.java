@@ -23,7 +23,8 @@ public class LinkList {
 		str.add("Rashid");
 		str.add("Reshi");
 		str.add("Farhad");
-		str.remove("Reshi");
+		//str.remove("Reshi");
+		str.add(1,"Hadi");
 		System.out.println(str);
 		boolean bol = str.contains("Farhad");
 		if(bol==true)
