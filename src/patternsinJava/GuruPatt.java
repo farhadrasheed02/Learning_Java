@@ -21,8 +21,9 @@ public class GuruPatt {
 				}
 				
 			}
+			System.out.println();
 		}
-		System.out.println();
+		
 	}
 
 }
