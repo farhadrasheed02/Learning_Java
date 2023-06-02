@@ -1,9 +1,15 @@
 package patternsinJava;
 
-public class GuruPatt {
+import java.io.File;
+
+import specialmethods.ReportOnConsole;
+
+public class GuruPatt extends ReportOnConsole {
 
 	public static void main(String[] args) {
-			
+		ReportOnConsole rp = new ReportOnConsole();
+		rp.generatereport();
+		
 		int n=4;
 		int i,j;
 		

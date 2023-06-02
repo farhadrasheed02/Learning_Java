@@ -2,9 +2,15 @@ package collection;
 
 import java.util.HashSet;
 
-public class Hashset {
+import specialmethods.ReportOnConsole;
+
+public class Hashset extends ReportOnConsole{
 
 	public static void main(String[] args) {
+		
+		//System.out.println("The output will be saved in the file from now onwards :- ");
+		ReportOnConsole rp = new ReportOnConsole();
+		rp.generatereport();
 		HashSet<String> hs = new HashSet<String>();
 		hs.add("Farhad");
 		hs.add("Haseena");
@@ -20,6 +26,7 @@ public class Hashset {
 		hset.add(121.10);
 		hset.add(new Double(12.55));
 		System.out.println(hset);
+		
 	}
 
 }
