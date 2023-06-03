@@ -1,6 +1,7 @@
 package collection;
 
 import java.util.HashSet;
+import java.util.TreeSet;
 
 import specialmethods.ReportOnConsole;
 
@@ -25,7 +26,12 @@ public class Hashset extends ReportOnConsole{
 		hset.add(2444.145);
 		hset.add(121.10);
 		hset.add(new Double(12.55));
+		hset.add(5.5);
 		System.out.println(hset);
+		
+		TreeSet<Double> tset = new TreeSet<Double>();
+		tset.addAll(hset);
+		System.out.println("Values of the Hashset Into the Treeset"+tset);
 		
 	}
 
