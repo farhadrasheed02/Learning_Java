@@ -6,6 +6,7 @@ interface Military
 	//public void Solider(int n);
 }
 
+// Lambda expression provides implementation of functional interface. An interface which has only one abstract method is called functional interface.
 public class OneParameterLambda extends FirstProgram {
 
 	public static void main(String[] args) {
