@@ -18,5 +18,10 @@ public class Employee implements ShowInfo {
 		
 		System.out.println("My Info from Interface "+name+" "+i);
 	}
+	public static void interfworking(ShowInfo formation)
+	{
+		formation.ShowingInfo("IBM",1800);
+		
+	}
 
 }
