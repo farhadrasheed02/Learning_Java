@@ -5,7 +5,7 @@ import java.util.LinkedList;
 public class GuruQuestion {
 	static int countOccurrences(String str, String word)
 	{
-	    // split the string by spaces in a
+	    // split the string by spaces in an empty array....
 	    String a[] = str.split(" ");
 	 
 	    // search for pattern in a
