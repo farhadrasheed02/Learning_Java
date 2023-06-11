@@ -6,10 +6,12 @@ public class ClassA {
 	public static void main(String[] args) {
 		Shapes shapes = new Shapes();
 		shapes.area();
-//		Shapes shap1 = shapes;
+//		
 //		shap1.area();
 		Triangle traingle = new Triangle();
 		traingle.area();
+		Shapes shap1 = traingle;
+		shap1.area();
 		Circle circle = new Circle();
 		circle.area();
 		
