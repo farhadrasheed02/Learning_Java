@@ -13,8 +13,11 @@ public class CastingNumValues {
 		byte byteValue = 9;
 		short shortValue =55;
 		
-		System.out.println(intValue);
+		int intValue1 = (int)doublevalue;
+		byte bytevalue1 = (byte)intValue;
+		System.out.println(intValue1);
 		System.out.println(doublevalue);
+		System.out.println(bytevalue1);
 	}
 
 }
