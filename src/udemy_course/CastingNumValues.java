@@ -14,7 +14,7 @@ public class CastingNumValues {
 		short shortValue =55;
 		
 		System.out.println(intValue);
-
+		System.out.println(doublevalue);
 	}
 
 }
