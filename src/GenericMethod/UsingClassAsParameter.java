@@ -7,23 +7,23 @@ public class UsingClassAsParameter {
 	
 	public static void main(String args[])
 	{
-	//	ArrayList<Machine> str = new ArrayList<>();
-		ArrayList<Camera> cam = new ArrayList<>();
-		//str.add(new Machine());
-		cam.add(new Camera());
+		ArrayList<Machine> str = new ArrayList<>();
+		//ArrayList<Camera> cam = new ArrayList<>();
+		str.add(new Machine());
+		//cam.add(new Camera());
 		//System.out.println(str);
 //		str.add("Farhad");
 //		str.add("Haseena");
-		showlist(cam);
+		showlist(str);
 		
 		
 		
 	}
 
 	// showing in this method that class can be directly send as argument...
-	public static void showlist(ArrayList<Camera> str)
+	public static void showlist(ArrayList<Machine> str)
 	{
-		for(Camera value : str)
+		for(Machine value : str)
 		{
 			System.out.println(value);
 		}
@@ -52,5 +52,8 @@ class Machine
 		System.out.println("Machine is working ...");
 	}
 	
-	
+	public String get()
+	{
+		return "Machine is running";
+	}
 }
