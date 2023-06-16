@@ -8,22 +8,23 @@ public class UsingClassAsParameter {
 	public static void main(String args[])
 	{
 		ArrayList<Machine> str = new ArrayList<>();
-		//ArrayList<Camera> cam = new ArrayList<>();
+		ArrayList<Camera> cam = new ArrayList<>();
 		str.add(new Machine());
 		//cam.add(new Camera());
 		//System.out.println(str);
 //		str.add("Farhad");
 //		str.add("Haseena");
-		showlist(str);
+		//showlist(str);
+		showlist(cam);
 		
 		
 		
 	}
 
 	// showing in this method that class can be directly send as argument...
-	public static void showlist(ArrayList<Machine> str)
+	public static void showlist(ArrayList<? extends Camera> str)
 	{
-		for(Machine value : str)
+		for(Object value : str)
 		{
 			System.out.println(value);
 		}
@@ -34,26 +35,18 @@ public class UsingClassAsParameter {
 class Camera extends Machine
 {
 
-	public void getCam()
-	{
-		System.out.println("I have DSLR Camera....");
-	}
-	
-	
+	@Override
+	public String toString() {
+		return "Camera is Working....";
+	}	
 }
 class Machine
 {
-	
-	
 
-
-	public void machinrun() {
-		
-		System.out.println("Machine is working ...");
+	@Override
+	public String toString() {
+		return "Machine is running ";
 	}
 	
-	public String get()
-	{
-		return "Machine is running";
-	}
+
 }
