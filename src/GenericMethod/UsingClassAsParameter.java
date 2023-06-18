@@ -2,27 +2,20 @@ package GenericMethod;
 
 import java.util.ArrayList;
 
-public class UsingClassAsParameter {
-	
-	
+public class UsingClassAsParameter 
+{	
 	public static void main(String args[])
 	{
 		ArrayList<Machine> str = new ArrayList<>();
 		ArrayList<Camera> cam = new ArrayList<>();
 		str.add(new Machine());
-		//cam.add(new Camera());
-		//System.out.println(str);
-//		str.add("Farhad");
-//		str.add("Haseena");
-		//showlist(str);
-		showlist(cam);
-		
-		
-		
+		cam.add(new Camera());
+		showlist(str);
+		showlist(cam);		
 	}
 
 	// showing in this method that class can be directly send as argument...
-	public static void showlist(ArrayList<? extends Camera> str)
+	public static void showlist(ArrayList<?> str)
 	{
 		for(Object value : str)
 		{
