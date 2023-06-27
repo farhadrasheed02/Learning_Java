@@ -3,7 +3,7 @@ class A
 {
 	public void start()
 	{
-		System.out.println("Machine is working....");
+		System.out.println("Machine is working according to it's manual....");
 	}
 }
 public class Test1 {
