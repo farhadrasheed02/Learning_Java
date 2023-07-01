@@ -8,6 +8,7 @@ public class ReadingFilesUsingScanner {
 
 	public static void main(String[] args) {
 
+		//File file = new File("");
 		String filename = "..\\Learning_Java\\src\\example.txt";
 		
 		File txtfile = new File(filename);
