@@ -1,37 +1,14 @@
 package Files;
 
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.util.Scanner;
-
-public class ReadingFilesUsingScanner {
+public class ReadingFilesUsingScanner extends Methods {
 
 	public static void main(String[] args) {
 
 		//File file = new File("");
-		String filename = "..\\Learning_Java\\src\\example.txt";
+		// we are calling a method and get all the work done in the same method.
+		openFile();
 		
-		File txtfile = new File(filename);
 		
-		try {
-			Scanner sc = new Scanner(txtfile);
-			int val = sc.nextInt();
-			System.out.println("Read Value :"+val);
-			sc.nextLine();  // comment and uncomment to check the real magic
-			int count =2;
-			while(sc.hasNextLine())
-			{
-				String line = sc.nextLine();
-				
-				//System.out.println(line);
-				System.out.println(count+":"+line);
-				count++;
-				
-			}
-			sc.close();
-		} catch (FileNotFoundException e) {
-			e.printStackTrace();
-		}
 	}
 
 }

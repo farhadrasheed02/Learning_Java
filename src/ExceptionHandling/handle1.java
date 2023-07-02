@@ -6,6 +6,12 @@ import java.io.FileReader;
 public class handle1 {
 
 	public static void main(String[] args) {
+		openFile();
+		
+	}
+	public static void openFile()
+	{
+		
 		File file = new File("..\\Learning_Java\\src\\file.txt");
 		int ch;
 		try {
@@ -18,7 +24,6 @@ public class handle1 {
 		} catch (Exception e) {
 			System.out.println("File not found "+e.getMessage());
 		}
-		
 	}
 
 }
