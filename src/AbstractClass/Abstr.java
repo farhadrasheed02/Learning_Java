@@ -6,6 +6,11 @@ public class Abstr {
 		
 		Camera cam = new Camera();
 		cam.Onstart();
+		cam.id();
+		Car car = new Car();
+		car.Onstart();
+		car.id();
+		
 	}
 
 }
