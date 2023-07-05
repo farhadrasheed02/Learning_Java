@@ -13,9 +13,10 @@ public class FileReaders {
 		BufferedReader br=null;
 		File file = new File("..\\Learning_Java\\src\\test.txt");
 		try {
-			FileReader fr = new FileReader(file);
-			 br= new BufferedReader(fr);
-			
+			//FileReader fr = new FileReader(file);
+			 br= new BufferedReader(new FileReader(file));  // combining two lines into one..16-17 line into one
+		
+			  
 			String line ;
 			while(( line= br.readLine()) != null)
 			{
