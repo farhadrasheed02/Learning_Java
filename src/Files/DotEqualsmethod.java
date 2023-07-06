@@ -15,7 +15,7 @@ public class DotEqualsmethod {
 		String b=sc.next();
 		System.out.println(a.equals(b));
 		System.out.println(farhad.equals(farhad1));
-		//sc.close();
+		sc.close();
 	}
 
 }
