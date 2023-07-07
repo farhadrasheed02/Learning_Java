@@ -4,11 +4,9 @@ public class MainClass {
 	static Color color;
 	public static void main(String[] args) {
 		
-		color= Color.BLUE;
+		 color= Color.BLUE;
 		color=Color.RED;
-		
-		
-		
+			
 		switch(color)
 		{
 		case BLUE:
@@ -28,8 +26,8 @@ public class MainClass {
 
 		
 		}
-		
+		System.out.println(Color.RED.getClass());
 		
 	}
-
+	
 }
