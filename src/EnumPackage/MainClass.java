@@ -26,10 +26,13 @@ public class MainClass {
 
 		
 	}
+		Color col2 = Color.valueOf("RED");
+		
 		System.out.println(Color.RED);
 		System.out.println(Color.BLUE.getName());
 		System.out.println(Color.GREEN.toString());
 		System.out.println("Enum name as a String "+Color.RED.name());
+		System.out.println(col2);
 		//System.out.println(Color.RED.getClass());
 		//System.out.println(Color.GREEN instanceof Color);  // is it actually instance of anything..it should print true...
 		
