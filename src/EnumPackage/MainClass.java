@@ -1,19 +1,31 @@
 package EnumPackage;
 
 public class MainClass {
-
+	static Color color;
 	public static void main(String[] args) {
-		Color color = Color.BLUE;
+		
+		color= Color.BLUE;
+		color=Color.RED;
+		
+		
 		
 		switch(color)
 		{
-		case RED :
-			System.out.println("This is REd Color");
-			break;
 		case BLUE:
-			System.out.println("Blue color from class Color");
+			System.out.println("This is the "+ color+" from Color Class");
+			break;
+		case GREEN:
+			System.out.println("This is the "+ color+" from Color Class");
+			break;
+		case RED:
+			System.out.println("This is the "+ color+" from Color Class");
+			break;
+		case WHITE:
+			System.out.println("This is the "+ color+" from Color Class");
+			break;
 		default:
 			break;
+
 		
 		}
 		
