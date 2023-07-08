@@ -1,6 +1,8 @@
 package Serialization;
 
-public class PersonClass {
+import java.io.Serializable;
+
+public class PersonClass implements Serializable {
 	
 		private int id;
 		private String name;
