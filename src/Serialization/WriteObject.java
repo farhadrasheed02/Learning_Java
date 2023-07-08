@@ -15,9 +15,9 @@ public class WriteObject extends Utility  {
 		System.out.println("Writing class...");
 		PersonClass p = new PersonClass(55, "Farhad");
 		System.out.println(p.toString());
-		String abc = Utility.FileLocatioin("filename");
+		String file = Utility.getFileLocatioin();
 		try {
-			var fileoutput = new FileOutputStream(abc);
+			var fileoutput = new FileOutputStream(file);
 			ObjectOutputStream objstream = new ObjectOutputStream(fileoutput);
 			objstream.writeObject(p);
 			objstream.close();

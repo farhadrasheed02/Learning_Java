@@ -1,9 +1,17 @@
 package Serialization;
 
 public class Utility {
-	public static String FileLocatioin(String filename)
+	static String filename;
+	public static String getFileLocatioin()
 	{
-		 return filename = "..\\Learning_Java\\src\\Serialization\\outputstream.txt";
-	}
+		 try {
+			 filename = "..\\Learning_Java\\src\\Serialization\\outputstream.txt";
+		} catch (Exception e) {
+			
+			System.out.println("Return error message is "+e.toString());
+		}
+		return filename;
+		  
+		}
 
 }
