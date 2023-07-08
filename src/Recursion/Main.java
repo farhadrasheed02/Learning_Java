@@ -1,15 +1,24 @@
 package Recursion;
-
-public class Main {
-
+import java.util.Scanner;
+public class Main 
+{
 	public static void main(String[] args) {
-		int value =5;
-		calculate(value);
-		System.out.println(value);
+		System.out.println("Enter the number for factorial ..");
+		Scanner sc = new Scanner(System.in);
+		int a = sc.nextInt();
+		
+		factorial(a);  //recursion 
+		System.out.println(factorial(a));
+		System.out.println(a);
+		sc.close();
 	}
-	public static void calculate(int value) {
-		value = value-1;
-		System.out.println(value);
+	public static int factorial(int value) {
+		
+		if(value==1)
+		{
+			return 1;
+		}
+		return factorial(value-1)*value;
 	}
 
 }
