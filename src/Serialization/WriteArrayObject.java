@@ -9,17 +9,17 @@ import Files.FileWrite;
 
 
 
-public class WriteObject extends Utility  {
+public class WriteArrayObject extends Utility  {
 	public static void main(String args[])
 	{
 		System.out.println("Writing class...");
-		PersonClass p = new PersonClass(55, "Farhad");
-		System.out.println(p.toString());
+		
+		PersonClass [] per = {new PersonClass(10, "farhad"), new PersonClass(11,"Hasu" ), new PersonClass(12, "Sultan bin Rashid")};
 		String file = Utility.getFileLocatioin();
 		try {
 			var fileoutput = new FileOutputStream(file);
 			ObjectOutputStream objstream = new ObjectOutputStream(fileoutput);
-		objstream.writeObject(p);
+			objstream.writeObject(per);
 			objstream.close();
 		} catch (IOException e) 
 		{	

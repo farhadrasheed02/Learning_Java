@@ -5,7 +5,7 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.ObjectInputStream;
 
-public class ReadObject extends Utility  {
+public class ReadArrayObject extends Utility  {
 
 	public static void main(String[] args) {
 
@@ -14,8 +14,11 @@ public class ReadObject extends Utility  {
 		try {
 			FileInputStream fileinputstream	=new FileInputStream(filelocation);
 			ObjectInputStream objectinputstream = new ObjectInputStream(fileinputstream);
-			PersonClass pclass = (PersonClass) objectinputstream.readObject();
-			System.out.println(pclass);
+			PersonClass[] perArray = (PersonClass[]) (objectinputstream.readObject());
+			for(PersonClass person : perArray)
+			{
+			System.out.println(person);	
+			}
 			
 		objectinputstream.read();
 			objectinputstream.close();
