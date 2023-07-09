@@ -2,6 +2,7 @@ package Serialization;
 
 import java.io.Serializable;
 
+@SuppressWarnings("serial")
 public class PersonClass implements Serializable {
 	
 		private int id;

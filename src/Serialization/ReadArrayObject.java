@@ -4,6 +4,7 @@ import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.ObjectInputStream;
+import java.util.ArrayList;
 
 public class ReadArrayObject extends Utility  {
 
@@ -18,6 +19,12 @@ public class ReadArrayObject extends Utility  {
 			for(PersonClass person : perArray)
 			{
 			System.out.println(person);	
+			}
+			@SuppressWarnings("unchecked")
+			ArrayList<PersonClass> aList = (ArrayList<PersonClass>) (objectinputstream.readObject());
+			for(PersonClass list : aList)
+			{
+				System.out.println(list);
 			}
 			
 		objectinputstream.read();
