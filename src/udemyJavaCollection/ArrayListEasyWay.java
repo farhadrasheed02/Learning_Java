@@ -15,6 +15,14 @@ public class ArrayListEasyWay {
 		{
 			System.out.println(integer);
 		}
+		
+		numbers.remove(numbers.size()-1);
+		
+		numbers.remove(0);
+		for(Integer num : numbers)
+		{
+			System.out.println(num);
+		}
 	}
 
 }
