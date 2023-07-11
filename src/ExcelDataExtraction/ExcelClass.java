@@ -12,8 +12,8 @@ public class ExcelClass {
 		int ColNum = 1;
 		try {
 		FileInputStream excelFile = new FileInputStream(new File(excelpath));
-        WorkB workbook = new XSSFWorkbook(excelFile);
-        She sheet = workbook.getSheetAt(0);
+//        WorkB workbook = new XSSFWorkbook(excelFile);
+//        She sheet = workbook.getSheetAt(0);
 		}
 		catch(Exception e){
 			System.out.println(e.toString());
