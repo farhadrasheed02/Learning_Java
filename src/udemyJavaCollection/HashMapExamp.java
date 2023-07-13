@@ -8,6 +8,7 @@ public class HashMapExamp {
 
 		HashMap< String, Integer> hashMap = new HashMap<>();
 		hashMap.put("Farhad",20);
+		hashMap.put("Haseena",26);
 		System.out.println(hashMap);
 	}
 
