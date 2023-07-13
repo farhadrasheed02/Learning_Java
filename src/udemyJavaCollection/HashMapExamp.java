@@ -10,6 +10,11 @@ public class HashMapExamp {
 		hashMap.put("Farhad",20);
 		hashMap.put("Haseena",26);
 		System.out.println(hashMap);
+		
+		
+		boolean txt = hashMap.containsKey("20");
+		
+		System.out.println(txt);
 	}
 
 }
