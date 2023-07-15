@@ -8,6 +8,8 @@ class StringLengthComparator implements Comparator<String>
 {
 	public int compare(String str1, String str2)
 	{
+		int len = str1.length();
+		int len2 = str2.length();
 		return 0;
 		
 	}
