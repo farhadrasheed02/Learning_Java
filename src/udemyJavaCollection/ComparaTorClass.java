@@ -10,6 +10,12 @@ class StringLengthComparator implements Comparator<String>
 	{
 		int len = str1.length();
 		int len2 = str2.length();
+		
+		if(len>len2)
+		{
+			
+		}
+		
 		return 0;
 		
 	}
