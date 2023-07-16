@@ -17,7 +17,9 @@ public class QueueClass {
 		for(Integer integer : queue)
 		
 			System.out.println(integer);		
+		System.out.println(queue.peek());
 		}
+		
 		catch(IllegalStateException e)
 		{
 			System.out.println("The size of the queue is smaller than its elments added"+e.toString());
