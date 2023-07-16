@@ -13,9 +13,13 @@ class StringLengthComparator implements Comparator<String>
 		
 		if(len>len2)
 		{
-			
+			return 1;
 		}
-		
+		else if(len<len2)
+		{
+			return -1;
+		}
+			
 		return 0;
 		
 	}
@@ -30,11 +34,7 @@ public class ComparaTorClass {
 		list.add("Reshi");
 		list.add("Haseena");
 		list.add("Nighat");
-		list.add("Khan");
-		
-		
-		
-		
+		list.add("Khan");	
 	}
 
 }
