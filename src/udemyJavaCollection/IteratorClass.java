@@ -16,14 +16,16 @@ public class IteratorClass {
 		list.add("Haseena");
 		list.add("Nighat");
 		list.add("Khan");
-//		Iterator<String> iterator = list.iterator();
+//		Iterator<String> iterator = list.iterator();   // can't add element during iteration
 		ListIterator<String> literator = list.listIterator(); // allows you to add element in run time as well...
+//		String previous = literator.previous();
+//		System.out.println(previous);
 		while(literator.hasNext())
 		{
 			String str = literator.next();
-			
 			if(str.equals("Farhad"))
-				literator.add("Jan Soub");
+				literator.set("Farhad QA Dev");
+//				literator.add("Jan Soub");
 			if(str.equals("Haseena"))
 				literator.add("Farhad's Wife");
 			
