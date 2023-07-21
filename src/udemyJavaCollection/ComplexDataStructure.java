@@ -18,7 +18,7 @@ public class ComplexDataStructure {
 
 	public static void main(String[] args) {
 		
-		Map<String,Set<String>> map = new HashMap<>();
+		Map<String,Set<String>> mapping = new HashMap<>();
 		for(int i=0;i<vechicles.length;i++)
 		{
 			String vechicle= vechicles[i]; 
@@ -30,18 +30,17 @@ public class ComplexDataStructure {
 			for(String driver : driverlist)
 			{
 				driverSet.add(driver);
-			}
-			map.put(vechicle, driverSet);
 			
-			//System.out.println(driverSet);
-		
-		Set<String> driverslist = map.get("helicopter");
-		
-		
-		for(String str :driverslist)
-		{
-			System.out.println(str);
+			}
+			
+			mapping.put(vechicle, driverSet);
+				
 		}
+		Set<String> list = mapping.get("ambulance");
+		for(String findcomb : list){
+			System.out.println(findcomb);
+			
+	
 		}
 
 		
