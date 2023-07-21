@@ -7,7 +7,7 @@ public class MainClass {
 		
 		for(String urls : url_lib)
 		{
-			System.out.println(urls);
+			System.out.println("Downloading the urls"+urls);
 		}
 
 	}
