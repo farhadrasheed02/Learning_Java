@@ -1,3 +1,4 @@
+package xml_parsing;
 
 public class EclipseShortcut {
 	 
