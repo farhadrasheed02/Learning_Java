@@ -1,5 +1,4 @@
 package udemyJavaCollection;
-
 import java.util.HashMap;
 import java.util.LinkedHashSet;
 import java.util.Map;
@@ -22,7 +21,7 @@ public class ComplexDataStructure {
 		for(int i=0;i<vechicles.length;i++)
 		{
 			String vechicle= vechicles[i]; 
-			//System.out.println(vechicle);
+			//System.out.println(Vehicle);
 		
 			String [] driverlist = drivers[i];  // way of iterating the  2D array 
 			Set<String> driverSet = new LinkedHashSet<>();
