@@ -10,5 +10,6 @@ public class abc {
 		System.out.println("To keep the things consisent even a single comment matters in that");
 		System.out.println("parents are blessing to us keep it in mind");
 		System.out.println("Continuing the process");
+		System.out.println("I have become lazy...");
 	}
 }
