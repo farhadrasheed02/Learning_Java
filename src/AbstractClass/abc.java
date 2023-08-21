@@ -11,6 +11,6 @@ public class abc {
 		System.out.println("parents are blessing to us keep it in mind");
 		System.out.println("Continuing the process");
 		System.out.println("I have become lazy...");
-		System.out.println("another day to continue...");
+		System.out.println("another day to continue. and today is there another day....");
 	}
 }
