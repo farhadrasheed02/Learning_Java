@@ -8,7 +8,7 @@ public class abc {
 		{
 			if(arr[i]%2==0)
 			{
-			System.out.println("Numbers are:"+arr[i]);
+			System.out.println("Number is :"+arr[i]);
 			}
 			
 		}
